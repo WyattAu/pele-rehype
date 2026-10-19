@@ -1,0 +1,26 @@
+{
+  "name": "pele-rehype",
+  "version": "0.1.0",
+  "description": "Rehype plugin: render ```mermaid fences with Pele (fast, CSS-variable themable SVG) in Astro, Starlight, and any unified pipeline",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "keywords": ["pele", "mermaid", "rehype", "astro", "starlight", "diagrams"],
+  "author": "Wyatt Au",
+  "license": "MIT",
+  "repository": "github:WyattAu/pele-rehype",
+  "peerDependencies": {
+    "pele": ">=1"
+  },
+  "peerDependenciesMeta": {
+    "pele": { "optional": true }
+  },
+  "devDependencies": {
+    "pele": "^1",
+    "rehype-stringify": "^10",
+    "remark-parse": "^11",
+    "remark-rehype": "^11",
+    "unified": "^11"
+  }
+}
