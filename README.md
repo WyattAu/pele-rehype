@@ -2,8 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Render ```mermaid fences with [**Pele**](https://pele.run) — the fast,
-synchronous Mermaid-to-SVG renderer with CSS-variable theming — in
+Render ```mermaid fences with [**Pele**](https://pele.run); the fast,
+synchronous Mermaid-to-SVG renderer with CSS-variable theming; in
 **Astro**, **Starlight**, and any unified/rehype pipeline.
 
 Built with the Pele author's blessing ([issue #17](https://github.com/obsidianmd/pele/issues/17)).
@@ -12,7 +12,7 @@ Built with the Pele author's blessing ([issue #17](https://github.com/obsidianmd
 
 Starlight's built-in Mermaid ships the full Mermaid bundle to every
 visitor. Pele is small, synchronous, dependency-free, and themes through
-CSS variables — a better default for static docs.
+CSS variables; a better default for static docs.
 
 ## Install
 
@@ -60,4 +60,4 @@ loaderSnippet(options?)       // the loader <script> string, for manual injectio
 
 ## License
 
-MIT — Pele itself is MIT too.
+MIT; Pele itself is MIT too.
